@@ -51,7 +51,7 @@ ax.set_xticks(np.arange(len(current_subjects)))
 ax.set_xticklabels(current_subjects, rotation=45, ha='right', va='top')
 
 # Create the animation
-animation = FuncAnimation(fig, update, frames=len(votes))
+animation = FuncAnimation(fig, update, frames=len(votes),repeat=False)
 
 # Use the subplot configuration tool to adjust the bottom margin interactively
 plt.subplots_adjust(bottom=0.241)
@@ -60,4 +60,5 @@ plt.subplots_adjust(bottom=0.241)
 plt.xlabel('Subjects')
 plt.ylabel('Percentage of Votes (%)')
 plt.title('Accumulation of Votes Over Time')
+plt.tight_layout()
 plt.show()

@@ -44,7 +44,11 @@ You can customize the animation by adjusting parameters in the script:
 ## Contributing
 Feel free to contribute to this project by opening issues or creating pull requests. Your feedback and improvements are welcome!
 
-## Open Source
-This project is open to all. Feel free to use, modify, and distribute the code as needed.
+## License
+
+This project is open-source and available under the MIT License. Feel free to use, modify, and share!
+
+Happy coding! 🚀
+
 
 
